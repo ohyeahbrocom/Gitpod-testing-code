@@ -82,10 +82,10 @@ while i:
 
     i = input("Do you want to use the calculator again?  Answer y/n  : ")
 
-    if i == "y":
+    if i == "y" and i == "Y":
         i = 1
 
-    elif i == "n":
+    elif i == "n" and i == "N":
         break
 
     else:
